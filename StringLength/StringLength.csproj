@@ -49,5 +49,11 @@
   <ItemGroup>
     <None Include="App.config" />
   </ItemGroup>
+  <ItemGroup>
+    <ProjectReference Include="..\StringLengthInfo\StringLengthInfo.csproj">
+      <Project>{96585bc5-a01b-4ff0-aa9a-6556751b569b}</Project>
+      <Name>StringLengthInfo</Name>
+    </ProjectReference>
+  </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
